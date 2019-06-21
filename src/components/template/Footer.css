@@ -1,0 +1,42 @@
+footer.footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 25px;
+    background-color: var(--other3-color);
+    color: var(--other2-color);
+    grid-area: footer;
+}
+
+.fa-beat {
+    animation:fa-beat 5s ease infinite;
+    color: #e51a10;
+    font-size: 18px;
+  }
+  @keyframes fa-beat {
+    0% {
+      transform:scale(1);
+    }
+    5% {
+      transform:scale(1.25);
+    }
+    20% {
+      transform:scale(1);
+    }
+    30% {
+      transform:scale(1);
+    }
+    35% {
+      transform:scale(1.25);
+    }
+    50% {
+      transform:scale(1);
+    }
+    55% {
+      transform:scale(1.25);
+    }
+    70% {
+      transform:scale(1);
+    }
+  }
+  

@@ -1,0 +1,7 @@
+.languages {
+    height: 497px;
+    background-color: aqua;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}

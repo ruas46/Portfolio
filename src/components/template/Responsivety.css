@@ -1,0 +1,7 @@
+.responsivety {
+    height: 400px;
+    background-color: #FFF;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}

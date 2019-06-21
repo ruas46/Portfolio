@@ -1,0 +1,22 @@
+.app {
+  margin: 0px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows:
+      1fr
+      80px;
+  grid-template-areas: 
+      "content"
+      "footer";
+  background-color: #F4F4F4;
+}
+
+:root {
+  --primary-color: #24799E;
+  --secondary-color: #D84990;
+  --tertiary-color: #7AC1B5;
+  --text-color: #F3FFBD;
+  --other1-color: #B2DBBF;
+  --other2-color: #38bc00;
+  --other3-color: #393e41;
+}

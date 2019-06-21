@@ -1,0 +1,11 @@
+.home-img {
+    min-height: 200px;
+    max-height: 100vh;
+    overflow: hidden;
+    border-bottom: solid 2px var(--other3-color);
+}
+
+.home-img img {
+    height: auto;
+    width: 100%;
+}
