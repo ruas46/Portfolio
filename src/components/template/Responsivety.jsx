@@ -1,12 +1,35 @@
 import React from 'react'
+import {Animated} from "react-animated-css";
+import TrackVisibility from 'react-on-screen';
 import './Responsivety.css'
-import Resp1 from '../../assets/img/resp1.png'
-import Resp2 from '../../assets/img/resp2.png'
-import Resp3 from '../../assets/img/resp3.png'
+import DesktopImg from '../../assets/img/desktop-img.png'
+import TabletImg from '../../assets/img/tablet-img.png'
+import CellphoneImg from '../../assets/img/cellphone-img.png'
 
-export default props =>
-    <div className="responsivety">
-        <img src={Resp2} alt="Resp1" />
-        <img src={Resp1} alt="Resp1" />
-        <img src={Resp3} alt="Resp1" />
-    </div>
+const ComponentToTrack = ({ isVisible }) => {
+    return <div className="responsivety-imgs">
+        <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={isVisible}>
+            <img src={TabletImg} alt="Tablet Image" />
+        </Animated>
+        <Animated animationIn="pulse" animationOut="fadeOut" isVisible={isVisible}>
+            <img src={DesktopImg} alt="Desktop Image" />
+        </Animated>
+        <Animated animationIn="bounceInRight" animationOut="fadeOut" isVisible={isVisible}>
+            <img src={CellphoneImg} alt="Cellphone Image" />
+        </Animated>
+    </div>;
+}
+
+const Responsivety = () => {
+    return (
+        <div className="responsivety" >
+            <TrackVisibility>
+                <ComponentToTrack />
+            </TrackVisibility>
+            <div className="responsivety-text">
+                <p>Experience with responsive development</p>
+            </div>
+        </div>
+    );
+}
+export default Responsivety;

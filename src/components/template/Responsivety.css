@@ -1,7 +1,14 @@
 .responsivety {
     height: 400px;
-    background-color: #FFF;
+    background-color: #fff;
+}
+.responsivety-text {
     display:flex;
-    justify-content: flex-start;
+    justify-content: center;
+}
+.responsivety-imgs {
+    height: 230px;
+    display:flex;
+    justify-content: center;
     align-items: center;
 }
