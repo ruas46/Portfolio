@@ -27,7 +27,7 @@ const Responsivety = () => {
                 <ComponentToTrack />
             </TrackVisibility>
             <div className="responsivety-text">
-                <p>Experience with responsive development</p>
+                <p>/* Experience with responsive development */</p>
             </div>
         </div>
     );
