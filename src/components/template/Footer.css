@@ -11,7 +11,7 @@ footer.footer {
 .fa-beat {
     animation:fa-beat 5s ease infinite;
     color: #e51a10;
-    font-size: 18px;
+    font-size: 19px;
   }
   @keyframes fa-beat {
     0% {
