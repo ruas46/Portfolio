@@ -3,6 +3,7 @@
     max-height: 100vh;
     overflow: hidden;
     border-bottom: solid 2px var(--other3-color);
+    background-color: var(--other3-color);
 }
 
 .home-img img {
