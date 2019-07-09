@@ -8,10 +8,11 @@ footer.footer {
     grid-area: footer;
 }
 
-.fa-beat {
+footer.footer .fa-beat {
     animation:fa-beat 5s ease infinite;
     color: #e51a10;
     font-size: 19px;
+    margin: 0 3px;
   }
   @keyframes fa-beat {
     0% {
@@ -40,3 +41,9 @@ footer.footer {
     }
   }
   
+footer.footer .fa-react {
+  font-size: 17px;
+  color: #61dafb;
+  margin: 0 3px;
+  animation: fa-spin 3s infinite linear;
+}
