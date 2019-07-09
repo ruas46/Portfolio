@@ -20,3 +20,7 @@
   --other2-color: #38bc00;
   --other3-color: #393e41;
 }
+
+html {
+	scroll-behavior: smooth;
+}
