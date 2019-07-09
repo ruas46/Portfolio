@@ -6,6 +6,7 @@
     border: solid 2px;
     border-radius: 40px;
     color: #FFF;
+    transition: all 0.5s ease-in-out;
   }
   
   .contactIcon > .fa:hover {
@@ -13,6 +14,7 @@
       background-color: var(--secondary-color);
       border-color: var(--secondary-color);
       color: #1e1818;
+      transition: all 0.3s ease-in-out;
   }
   
 .contactIcon {
