@@ -3,7 +3,7 @@ import './Header.css'
 
 export default props =>
     <header className="header">
-        <a href="#" >Home</a>
-        <a href="#" >About me</a>
-        <a href="#" >Contact</a>
+        <a href="#root" >Home</a>
+        <a href="#degree" >About me</a>
+        <a href="#contact" >Contact</a>
     </header>

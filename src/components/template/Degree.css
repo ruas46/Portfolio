@@ -1,36 +1,29 @@
-.degree {
+#degree {
     height: 250px;
     background-color: var(--other3-color);
     display:flex;
     justify-content: center;
     align-items: center;
 }
-
-.degree p {
+#degree p {
     color: #FFF;
 }
-
-.degree .tab {
+#degree .tab {
     padding: 0px 15px;
 }
-
-.degree .esp {
+#degree .esp {
     color: var(--secondary-color);
 }
-
-.degree .var {
+#degree .var {
     color: var(--other2-color);
 }
-
-.degree .text {
+#degree .text {
     color: var(--tertiary-color);
 }
-
-.degree .other {
+#degree .other {
     color: var(--text-color);
 }
-
-.degree .blink_text {
+#degree .blink_text {
     font-size:30px;
     color: #FFF;
     font-weight:bold;

@@ -4,7 +4,7 @@ import Img from '../../assets/img/10.png'
 
 
 export default props =>
-    <div className="degree">
+    <div id="degree">
         <img id="degree-img" src={Img} alt="Img" height="200" width="200" />
         <p>
             <span className="esp">const </span>
