@@ -1,4 +1,5 @@
 #degree {
+    min-height: 250px;
     background-color: var(--other3-color);
     display:flex;
     flex-wrap: wrap;
