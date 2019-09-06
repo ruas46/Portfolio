@@ -29,3 +29,9 @@ header.header > a:hover {
 header.header > a:active {
     color: var(--secondary-color);
 }
+
+@media screen and (max-width: 575px) {
+    header.header {
+      flex-direction: column;
+    }
+  }

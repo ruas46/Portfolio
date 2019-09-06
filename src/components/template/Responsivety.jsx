@@ -23,7 +23,7 @@ const ComponentToTrack = ({ isVisible }) => {
 const Responsivety = () => {
     return (
         <div className="responsivety" >
-            <TrackVisibility>
+            <TrackVisibility partialVisibility>
                 <ComponentToTrack />
             </TrackVisibility>
             <div className="responsivety-text">
