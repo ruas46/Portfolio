@@ -1,11 +1,14 @@
 import React from 'react'
 import './Header.css'
+import HeaderButton from './HeaderButton'
+import HeaderLinks from './HeaderLinks'
 
 class Header extends React.Component {
     constructor() {
         super();
         this.state = {
           width: window.innerWidth,
+          headerMobileOpen: false
         };
     }
 
@@ -21,16 +24,28 @@ class Header extends React.Component {
         this.setState({ width: window.innerWidth });
     }
 
+    handleHeaderChange = () => {
+        this.setState({ headerMobileOpen: !this.state.headerMobileOpen })
+    }
+
     render(){
-        const { width } = this.state;
+        const { width, headerMobileOpen } = this.state;
         const isMobile = width <= 575;
-        console.log(isMobile)
+        
+        console.log('isMobile: ' + isMobile)
+        console.log('headerMobileOpen: ' + headerMobileOpen)
 
         return (
             <header className="header">
-                <a href="#root" >Home</a>
-                <a href="#degree" >About me</a>
-                <a href="#contact" >Contact</a>
+                { isMobile
+                  ? <HeaderButton onClick={this.handleHeaderChange} />
+                  : <HeaderLinks />
+                }
+
+                { isMobile && headerMobileOpen
+                  ? <HeaderLinks />
+                  : null
+                }
             </header>
         )
     }
