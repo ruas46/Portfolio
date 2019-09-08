@@ -1,12 +1,11 @@
 .home-img {
-    min-height: 200px;
-    max-height: 100vh;
-    overflow: hidden;
+    background-image: url("../../assets/img/04.jpg");
+    min-height: 100vh;
     border-bottom: solid 2px var(--other3-color);
     background-color: var(--other3-color);
-}
 
-.home-img img {
-    height: auto;
-    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
