@@ -14,7 +14,8 @@
 }
 
 .home .text {
-    color: var(--other3-color);
+    color: #FFF;
+    text-shadow: -2px 2px var(--other3-color);
     font-family: 'Playfair Display', serif;
     margin-top: 20%;
 }
