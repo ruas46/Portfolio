@@ -1,4 +1,4 @@
-.home-img {
+.home {
     background-image: url("../../assets/img/04.jpg");
     min-height: 100vh;
     border-bottom: solid 2px var(--other3-color);
@@ -8,4 +8,23 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+    display: flex;
+    align-items: center;
+}
+
+.home .text {
+    color: var(--other3-color);
+    font-family: 'Playfair Display', serif;
+    margin-top: 20%;
+}
+
+.home .text .name {
+    font-size: 36px;
+    padding-left: 10px;
+}
+
+.home .text .dev {
+    font-size: 80px;
+    padding-left: 30px;
 }
