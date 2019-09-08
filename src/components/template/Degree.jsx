@@ -1,11 +1,15 @@
 import React from 'react'
 import './Degree.css'
 import Img from '../../assets/img/10.png'
+import Cap from '../../assets/img/cap.png'
 
 
 export default props =>
     <div id="degree">
-        <img id="degree-img" src={Img} alt="Img" height="200" width="200" />
+        <div>
+            <img id="degree-img" src={Img} alt="Img" height="200" width="200" />
+            <img id="degree-img-cap" src={Cap} alt="Cap" />
+        </div>
         <p>
             <span className="esp">const </span>
                 <span className="var">formation </span>

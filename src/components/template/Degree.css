@@ -9,6 +9,7 @@
 }
 #degree p {
     color: #FFF;
+    margin-left: 10px;
 }
 #degree .tab {
     padding: 0px 15px;
@@ -31,6 +32,11 @@
     font-weight:bold;
     animation: blink 1s infinite;	
 }
+#degree-img-cap {
+    position: absolute;
+    margin-left: -110px;
+    margin-top: 10px;
+}
 
 @keyframes blink {  
  0% { opacity: 1.0; }
@@ -38,7 +44,7 @@
  100% { opacity: 1.0; }
 }
 
-#degree-img:hover {
+#degree-img-cap:hover {
     animation: shake 0.5s;
   }
 @keyframes shake {
