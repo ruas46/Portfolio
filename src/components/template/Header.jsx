@@ -32,7 +32,7 @@ class Header extends React.Component {
 
     render(){
         const { width, headerMobileOpen } = this.state;
-        const isMobile = width <= 575;
+        const isMobile = width <= 820;
         
         console.log('isMobile: ' + isMobile)
         console.log('headerMobileOpen: ' + headerMobileOpen)

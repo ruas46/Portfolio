@@ -13,4 +13,5 @@ header.header {
     position: absolute;
     left: 20px;
     top: 9px;
+    z-index: 1;
 }
