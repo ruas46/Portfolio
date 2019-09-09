@@ -4,6 +4,7 @@ import HeaderButton from './HeaderButton'
 import HeaderDesktop from './HeaderDesktop'
 import HeaderMobile from './HeaderMobile'
 import HeaderIcon from '../../assets/img/icon.png'
+import {Animated} from "react-animated-css";
 
 class Header extends React.Component {
     constructor() {
@@ -39,18 +40,20 @@ class Header extends React.Component {
 
         return (
             <header className="header">
-                <div className="header-icon">
-                    <a href="/" ><img src={HeaderIcon} alt="Icon" /></a>
-                </div>
-                { isMobile
-                  ? <HeaderButton onClick={this.handleHeaderChange} />
-                  : <HeaderDesktop />
-                }
+                <Animated animationIn="fadeInDown">
+                    <div className="header-icon">
+                        <a href="/" ><img src={HeaderIcon} alt="Icon" /></a>
+                    </div>
+                    { isMobile
+                    ? <HeaderButton onClick={this.handleHeaderChange} />
+                    : <HeaderDesktop />
+                    }
 
-                { isMobile && headerMobileOpen
-                  ? <HeaderMobile />
-                  : null
-                }
+                    { isMobile && headerMobileOpen
+                    ? <HeaderMobile />
+                    : null
+                    }
+                </Animated>
             </header>
         )
     }
