@@ -35,9 +35,6 @@ class Header extends React.Component {
         const { width, headerMobileOpen } = this.state;
         const isMobile = width <= 820;
         
-        console.log('isMobile: ' + isMobile)
-        console.log('headerMobileOpen: ' + headerMobileOpen)
-
         return (
             <header className="header">
                 <Animated animationIn="fadeInDown">
@@ -45,13 +42,10 @@ class Header extends React.Component {
                         <a href="/" ><img src={HeaderIcon} alt="Icon" /></a>
                     </div>
                     { isMobile
-                    ? <HeaderButton onClick={this.handleHeaderChange} />
+                    ? <HeaderMobile isVisible={headerMobileOpen}>
+                        <HeaderButton onClick={this.handleHeaderChange} changeIcon={headerMobileOpen} />
+                      </HeaderMobile>
                     : <HeaderDesktop />
-                    }
-
-                    { isMobile && headerMobileOpen
-                    ? <HeaderMobile />
-                    : null
                     }
                 </Animated>
             </header>

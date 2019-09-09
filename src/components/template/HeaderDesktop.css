@@ -25,15 +25,3 @@
 .header-desktop > a:active {
     color: var(--secondary-color);
 }
-
-@media screen and (max-width: 575px) {
-    .header-desktop {
-        padding-top: 10px;
-        flex-direction: column;
-    }
-
-    .header-desktop > a {
-        font-size: 21px;
-        color: #FFF;
-    }
-}
