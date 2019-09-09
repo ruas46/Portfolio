@@ -6,7 +6,7 @@ import TrackVisibility from 'react-on-screen';
 const ComponentToTrack = ({ isVisible }) => {
     return <Animated animationIn="fadeInLeft" animationOut="fadeOutLeft" isVisible={isVisible}>
                 <div className="text">
-                    <div className="name">Guilherme Ruas Luiz</div>
+                    <div className="name">Guilherme Ruas</div>
                     <div className="dev">Full Stack &<br/>Front End</div>
                 </div>
             </Animated>
