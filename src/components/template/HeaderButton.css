@@ -7,6 +7,12 @@
     top: 12px;
     border: none;
 }
+.headerButton:focus {
+    outline:none;
+}
+.headerButton::-moz-focus-inner {
+    border:0;
+}
 .headerButton i {
     color: white;
     padding: 14px 16px;
