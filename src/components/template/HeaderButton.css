@@ -15,4 +15,13 @@
     font-size: 27px;
     display: block;
     cursor: pointer;
-  }
+}
+.headerButton > .fa-angle-right {
+    font-size: 50px;
+    padding: 2px 16px;
+}
+.headerButton i.fa-angle-right:hover {
+    transition: 0.5s;
+    right: 0;
+    color: var(--secondary-color);
+}
