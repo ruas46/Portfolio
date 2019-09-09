@@ -8,3 +8,9 @@ header.header {
     position: absolute;
     box-shadow: 0px 0px 0px 1px #0b0b0b;
 }
+
+.header-icon {
+    position: absolute;
+    left: 20px;
+    top: 9px;
+}

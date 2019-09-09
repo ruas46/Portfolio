@@ -1,10 +1,8 @@
 import React from 'react'
-import './HeaderLinks.css'
-import HeaderIcon from '../../assets/img/icon.png'
+import './HeaderDesktop.css'
 
 export default () =>
-    <div className="headerLinks">
-        <a href="/" ><img src={HeaderIcon} alt="Icon" /></a>
+    <div className="header-desktop">
         <a href="#degree" >About me</a>
         <a href="#experience" >Experience</a>
         <a href="#contact" >Contact</a>

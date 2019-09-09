@@ -1,7 +1,9 @@
 import React from 'react'
 import './Header.css'
 import HeaderButton from './HeaderButton'
-import HeaderLinks from './HeaderLinks'
+import HeaderDesktop from './HeaderDesktop'
+import HeaderMobile from './HeaderMobile'
+import HeaderIcon from '../../assets/img/icon.png'
 
 class Header extends React.Component {
     constructor() {
@@ -37,13 +39,16 @@ class Header extends React.Component {
 
         return (
             <header className="header">
+                <div className="header-icon">
+                    <a href="/" ><img src={HeaderIcon} alt="Icon" /></a>
+                </div>
                 { isMobile
                   ? <HeaderButton onClick={this.handleHeaderChange} />
-                  : <HeaderLinks />
+                  : <HeaderDesktop />
                 }
 
                 { isMobile && headerMobileOpen
-                  ? <HeaderLinks />
+                  ? <HeaderMobile />
                   : null
                 }
             </header>
