@@ -5,15 +5,14 @@
     z-index: 2;
     right: 10px;
     top: 12px;
-}
-.headerButton:hover {
-    background-color: #ddd;
-    color: black;
+    border: none;
 }
 .headerButton i {
     color: white;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-weight: 100;
+    font-size: 27px;
     display: block;
+    cursor: pointer;
   }

@@ -14,4 +14,9 @@ header.header {
     left: 20px;
     top: 9px;
     z-index: 1;
+    opacity: .9;
+}
+
+.header-icon:hover {
+    opacity: .7;
 }
