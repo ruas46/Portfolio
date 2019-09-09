@@ -28,6 +28,12 @@
 
 @media screen and (max-width: 575px) {
     .headerLinks {
+        padding-top: 10px;
         flex-direction: column;
+    }
+
+    .headerLinks > a {
+        font-size: 21px;
+        color: #FFF;
     }
 }
