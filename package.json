@@ -5,6 +5,7 @@
   "dependencies": {
     "@material-ui/core": "^4.4.1",
     "@material-ui/icons": "^4.4.1",
+    "browserslist": "^4.6.3",
     "font-awesome": "^4.7.0",
     "react": "^16.8.6",
     "react-animated-css": "^1.2.1",
