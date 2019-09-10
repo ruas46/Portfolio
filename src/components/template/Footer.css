@@ -2,7 +2,10 @@ footer.footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 25px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 80px;
+    padding: 10px 25px;
     background-color: var(--other3-color);
     color: var(--other2-color);
     grid-area: footer;
@@ -46,4 +49,10 @@ footer.footer .fa-react {
   color: #61dafb;
   margin: 0 3px;
   animation: fa-spin 3s infinite linear;
+}
+
+@media only screen and (max-width: 598px) {
+  footer.footer {
+    justify-content: center;
+  }
 }
