@@ -1,0 +1,18 @@
+.random-facts {
+    text-align: center;
+    padding-bottom: 20px;
+    background-color: var(--tertiary-color);
+}
+.random-facts-content {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    width: 321px;
+}
+.random-facts-text {
+    text-align: center;
+    color: var(--secondary-color);
+    font-size: 33px;
+    padding: 25px 0px;
+}

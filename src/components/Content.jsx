@@ -5,6 +5,7 @@ import Degree from './template/Degree'
 import Langueges from './template/Languages'
 import Experience from './template/Experience'
 import Responsivety from './template/Responsivety'
+import RandomFacts from './template/RandomFacts'
 import Contact from './template/Contact'
 
 export default props =>
@@ -15,6 +16,7 @@ export default props =>
                 <Langueges />
                 <Experience />
                 <Responsivety />
+                <RandomFacts />
                 <Contact />
             </div>
     </React.Fragment>
