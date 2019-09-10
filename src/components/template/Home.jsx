@@ -14,7 +14,7 @@ const ComponentToTrack = ({ isVisible }) => {
 
 export default props =>
         <div className="home">
-            <TrackVisibility>
+            <TrackVisibility partialVisibility>
                 <ComponentToTrack />
             </TrackVisibility>
         </div>
