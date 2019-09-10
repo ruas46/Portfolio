@@ -1,7 +1,7 @@
 .random-facts {
     text-align: center;
     padding-bottom: 20px;
-    background-color: var(--tertiary-color);
+    background-color: var(--primary-color);
 }
 .random-facts-content {
     margin: auto;
@@ -12,7 +12,7 @@
 }
 .random-facts-text {
     text-align: center;
-    color: var(--secondary-color);
+    color: #FFF;
     font-size: 33px;
     padding: 25px 0px;
 }
