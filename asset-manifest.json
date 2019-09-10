@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.ed2b2a7a.chunk.css",
+    "main.js": "/Portfolio/static/js/main.9ce3d740.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.9ce3d740.chunk.js.map",
+    "runtime~main.js": "/Portfolio/static/js/runtime~main.132fbc8c.js",
+    "runtime~main.js.map": "/Portfolio/static/js/runtime~main.132fbc8c.js.map",
+    "static/css/2.44bbb5e9.chunk.css": "/Portfolio/static/css/2.44bbb5e9.chunk.css",
+    "static/js/2.1e2dd53b.chunk.js": "/Portfolio/static/js/2.1e2dd53b.chunk.js",
+    "static/js/2.1e2dd53b.chunk.js.map": "/Portfolio/static/js/2.1e2dd53b.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "precache-manifest.76c61ca5cb7f7002f5c3570a8ae873b0.js": "/Portfolio/precache-manifest.76c61ca5cb7f7002f5c3570a8ae873b0.js",
+    "service-worker.js": "/Portfolio/service-worker.js",
+    "static/css/2.44bbb5e9.chunk.css.map": "/Portfolio/static/css/2.44bbb5e9.chunk.css.map",
+    "static/css/main.ed2b2a7a.chunk.css.map": "/Portfolio/static/css/main.ed2b2a7a.chunk.css.map",
+    "static/media/Home.css": "/Portfolio/static/media/04.d4762b29.jpg",
+    "static/media/10.png": "/Portfolio/static/media/10.26859a97.png",
+    "static/media/22.png": "/Portfolio/static/media/22.38236572.png",
+    "static/media/books.jpg": "/Portfolio/static/media/books.4fed7572.jpg",
+    "static/media/cat.jpg": "/Portfolio/static/media/cat.199017de.jpg",
+    "static/media/coffee.jpg": "/Portfolio/static/media/coffee.16699bb8.jpg",
+    "static/media/cook.jpg": "/Portfolio/static/media/cook.be9d2ed7.jpg",
+    "static/media/desktop-img.png": "/Portfolio/static/media/desktop-img.8aaecf6e.png",
+    "static/media/esports.jpg": "/Portfolio/static/media/esports.9e09546f.jpg",
+    "static/media/font-awesome.min.css": "/Portfolio/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/games.jpg": "/Portfolio/static/media/games.5b07b5c7.jpg",
+    "static/media/marvel.jpg": "/Portfolio/static/media/marvel.efedea81.jpg",
+    "static/media/popcorn.jpg": "/Portfolio/static/media/popcorn.4c9c7371.jpg",
+    "static/media/teach.jpg": "/Portfolio/static/media/teach.ea1e2c50.jpg"
+  }
+}
