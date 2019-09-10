@@ -1,5 +1,4 @@
 import React from 'react'
-import './Contact.css'
 import ContactIcon from './ContactIcon'
 
 export default props =>
