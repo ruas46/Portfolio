@@ -34,3 +34,6 @@
     -ms-user-select: none; /* IE10+/Edge */
     user-select: none; /* Standard */
 }
+.flip-card-back p {
+    padding: 0px 1px;
+}
