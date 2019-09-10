@@ -20,7 +20,7 @@ export default props =>
                 <h3 className="vertical-timeline-element-title">Full Stack Developer</h3>
                 <h4 className="vertical-timeline-element-subtitle">Del Grande</h4>
                 <p>
-                Full stack in the company, developing solutions for multiple products
+                Full stack in the company, developing solutions for multiple products.
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -91,7 +91,7 @@ export default props =>
                 <h3 className="vertical-timeline-element-title">Bachelor in Computer Science</h3>
                 <h4 className="vertical-timeline-element-subtitle">Bachelor Degree</h4>
                 <p>
-                Canoas - RS, Brazil
+                Canoas - RS, Brazil.
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
