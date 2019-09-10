@@ -1,5 +1,6 @@
 header.header {
     color: #FFF;
+    background-color: #000;/*EDGE*/
     background-color: #000d;
     z-index: 1;
     width: 100%;
