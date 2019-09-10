@@ -8,13 +8,13 @@ import CellphoneImg from '../../assets/img/cellphone-img.png'
 
 const ComponentToTrack = ({ isVisible }) => {
     return <div className="responsivety-imgs">
-        <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={isVisible}>
+        <Animated animationIn="bounceInLeft" isVisible={isVisible}>
             <img src={TabletImg} alt="Tablet" />
         </Animated>
-        <Animated animationIn="pulse" animationOut="fadeOut" isVisible={isVisible}>
+        <Animated animationIn="pulse" isVisible={isVisible}>
             <img src={DesktopImg} alt="Desktop" />
         </Animated>
-        <Animated animationIn="bounceInRight" animationOut="fadeOut" isVisible={isVisible}>
+        <Animated animationIn="bounceInRight" isVisible={isVisible}>
             <img src={CellphoneImg} alt="Cellphone" />
         </Animated>
     </div>;
@@ -23,7 +23,7 @@ const ComponentToTrack = ({ isVisible }) => {
 const Responsivety = () => {
     return (
         <div className="responsivety" >
-            <TrackVisibility partialVisibility>
+            <TrackVisibility partialVisibility once>
                 <ComponentToTrack />
             </TrackVisibility>
             <div className="responsivety-text">

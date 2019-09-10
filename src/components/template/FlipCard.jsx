@@ -3,7 +3,7 @@ import './FlipCard.css'
 import {Animated} from "react-animated-css";
 
 export default props =>
-    <Animated animationIn="flipInY" animationOut="bounceOut" animationInDelay={props.delay} isVisible={props.isVisible} >
+    <Animated animationIn="flipInY" animationInDelay={props.delay} isVisible={props.isVisible} >
         <div class="flip-card">
             <div class="flip-card-inner">
                 <div class="flip-card-front">
