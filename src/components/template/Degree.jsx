@@ -1,13 +1,13 @@
 import React from 'react'
 import './Degree.css'
-import Img from '../../assets/img/10.png'
+import Img from '../../assets/img/monitor.png'
 import Cap from '../../assets/img/cap.png'
 
 
 export default props =>
     <div id="degree">
         <div>
-            <img id="degree-img" src={Img} alt="Img" height="200" width="200" />
+            <img id="degree-img-monitor" src={Img} alt="Img" height="150" />
             <img id="degree-img-cap" src={Cap} alt="Cap" />
         </div>
         <p>
