@@ -29,7 +29,7 @@ export default props =>
                     <span className="other">,</span><br />
                 
                 <span className="tab"/>
-                    <span className="text">"degree" </span>
+                    <span className="text">"bachelor's degree" </span>
                     <span className="other">:</span>
                     <span className="esp"> "Computer Science"</span>
                     <span className="other">,</span><br />
