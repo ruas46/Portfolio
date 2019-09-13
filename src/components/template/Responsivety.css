@@ -13,9 +13,26 @@
     margin: 0 10px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
+    padding-left: 5%;
 }
 .responsivety-imgs div img {
     max-width:100%;
     height:auto;
+}
+.responsivety-imgs #notebook {
+    position: relative;
+    left: -70px;
+    z-index: 1;
+}
+.responsivety-imgs #desktop {
+    z-index: 0;
+}
+.responsivety-imgs #cellphone {
+    position: relative;
+    left: 29px;
+    z-index: 1;
+    -ms-transform: rotate(-12deg); /* IE 9 */
+    -webkit-transform: rotate(-12deg); /* Safari 3-8 */
+    transform: rotate(-12deg);
 }
