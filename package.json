@@ -2,7 +2,6 @@
   "name": "portfolio",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://ruas46.github.io/Portfolio/",
   "dependencies": {
     "@material-ui/core": "^4.4.1",
     "@material-ui/icons": "^4.4.1",
