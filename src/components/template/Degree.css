@@ -1,11 +1,11 @@
 #degree {
     min-height: 250px;
-    background-color: var(--other3-color);
     display:flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    padding-top: 10px;
 }
 #degree p {
     color: #FFF;

@@ -1,0 +1,22 @@
+#about-me {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 520px;
+    max-width: 100vw;
+    background-color: var(--other3-color);
+}
+#about-me .title{
+    flex-basis: 100%;
+    width: 0;
+    text-align: center;
+    color: var(--secondary-color);
+    font-size: 33px;
+    padding: 20px 0;
+}
+#about-me .text {
+    color: #FFF;
+    max-width: 400px;
+    padding: 10px;
+}

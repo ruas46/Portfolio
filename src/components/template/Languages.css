@@ -1,11 +1,25 @@
-.languages {
-    height: 497px;
-    max-width: 100vw;
-    background-color: var(--tertiary-color);
+#languages {
     display:flex;
     justify-content: space-around;
     align-items: center;
 }
-.languages img {
+#languages {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#languages img {
     max-width: 100%;
 }
+#languages > .tag-cloud {
+    max-width: 520px;
+    user-select: none;
+    margin-left: 10px;
+}
+#languages .special-character {
+    color: var(--tertiary-color);
+    font-size: 100px;
+}
+@keyframes blinker {
+    50% { opacity: 0.0; }
+  }
