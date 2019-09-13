@@ -1,4 +1,4 @@
-This is my personal developer page, can by access in: https://ruas46.github.io/Portfolio/
+This is my personal developer page, can by access in: guilhermeruas.com
 
 Email-me: guilhermeruas@hotmail.com
 
