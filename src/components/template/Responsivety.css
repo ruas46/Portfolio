@@ -1,5 +1,6 @@
 .responsivety {
-    height: 300px;
+    height: 325px;
+    overflow: hidden;
 }
 .responsivety-text {
     color: var(--other3-color);
