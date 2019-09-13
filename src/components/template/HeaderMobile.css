@@ -17,9 +17,12 @@
     padding: 10px;
 }
 
-.header-mobile > a:nth-child(2) {
+.header-mobile > a {
     border-bottom: 1px solid #FFF;
-    border-top: 1px solid #FFF;
+}
+
+.header-mobile > a:nth-child(4) {
+    border-bottom: none;
 }
 
 .header-mobile > a:visited {

@@ -27,7 +27,7 @@ const ComponentToTrack = ({ isVisible }) => {
 }
 
 export default props =>
-        <div className="random-facts">
+        <div id="random-facts">
             <div className="random-facts-text">Random Facts</div>
                 <TrackVisibility partialVisibility once>
                     <ComponentToTrack />

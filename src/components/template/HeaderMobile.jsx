@@ -10,6 +10,7 @@ export default ({ isVisible, children }) =>
                 <div className="header-mobile">
                     <a href="#about-me" >About me</a>
                     <a href="#experience" >Experience</a>
+                    <a href="#random-facts" >Random Facts</a>
                     <a href="#contact" >Contact</a>
                 </div>
             </Animated>
