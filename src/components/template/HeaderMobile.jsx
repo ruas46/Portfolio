@@ -8,7 +8,7 @@ export default ({ isVisible, children }) =>
         { isVisible
           ? <Animated animationIn="fadeInRight" animationOut="fadeOutRight" isVisible={isVisible}>
                 <div className="header-mobile">
-                    <a href="#degree" >About me</a>
+                    <a href="#about-me" >About me</a>
                     <a href="#experience" >Experience</a>
                     <a href="#contact" >Contact</a>
                 </div>
