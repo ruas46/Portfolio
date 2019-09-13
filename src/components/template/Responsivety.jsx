@@ -18,7 +18,7 @@ const ComponentToTrack = ({ isVisible }) => {
             <Animated animationIn="zoomInDown" animationInDelay={200} isVisible={isVisible}>
                 <img src={CellphoneImg} alt="Cellphone" />
             </Animated>
-        </div>;
+        </div>
         <Animated animationIn="slideInUp" animationInDelay={700} isVisible={isVisible}>
             <div className="responsivety-text">
                 <p>{'/* Experience with responsive development */'}</p>

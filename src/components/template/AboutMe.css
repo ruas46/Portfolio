@@ -14,7 +14,7 @@
     text-align: center;
     color: var(--secondary-color);
     font-size: 33px;
-    padding: 20px 0;
+    padding-top: 20px;
 }
 #about-me .about-me-text {
     color: #FFF;
