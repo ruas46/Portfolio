@@ -29,3 +29,12 @@
     font-size: 80px;
     padding-left: 30px;
 }
+
+@media only screen and (max-width: 385px) {
+    .home .text .name {
+        font-size: 30px;
+    }
+    .home .text .dev {
+        font-size: 60px;
+    }
+}

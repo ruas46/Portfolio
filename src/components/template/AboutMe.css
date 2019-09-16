@@ -22,4 +22,5 @@
     padding: 10px;
     border: 2px solid var(--secondary-color);
     margin: 0 20px;
+    text-align: justify;
 }
